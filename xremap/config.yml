@@ -1,0 +1,16 @@
+keymap:
+  - name: remaps
+    exact_match: true
+    remap:
+      ALT_L-k: left
+      ALT_L-p: right
+      ALT_L-o: up
+      ALT_L-l: down
+      ALT_L-a: Esc
+
+modmap:
+  - name: Test
+    remap:
+      CapsLock:
+        held: Ctrl_l
+        alone: BackSpace
